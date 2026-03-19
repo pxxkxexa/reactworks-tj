@@ -23,11 +23,11 @@
                     </li>
                     <li>
                         <label for="major">학과</label>
-                        <select name="major" id="major">
-                            <option value="software">소프트웨어학과</option>
-                            <option value="mechanic">기계공학과</option>
-                            <option value="electric">전좌전기공학과</option>
-                            <option value="computer">컴퓨터공학과</option>
+                        <select name="major" id="major" onchange="selectMajor()">
+                            <option value="소프트웨어학과">소프트웨어학과</option>
+                            <option value="기계공학과">기계공학과</option>
+                            <option value="전좌전기공학과">전좌전기공학과</option>
+                            <option value="컴퓨터공학과">컴퓨터공학과</option>
                         </select>
                     </li>
                 </ul>
@@ -38,5 +38,13 @@
             </div>
         </form>
     </div>
+
+    <script>
+        function selectMajor(){
+            // 선택 목록 요소에 접근
+            const major = document.getElementById("major").value;
+            alert(`${major}가 선택되었습니다.`);
+        }
+    </script>
 </body>
 </html>

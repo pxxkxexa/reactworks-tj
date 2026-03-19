@@ -2,6 +2,7 @@ import './App.css'
 import picture from './assets/hero.png'
 import Example01 from './components/Example01';
 import Example02 from './components/Example02';
+import Event from './components/event';
 
 // 버튼 컴포넌트 정의
 function MyButton(){
@@ -22,8 +23,9 @@ function App() {
       {/* <img src={picture} alt="이미지" width="200px"/> */}
     </div>
 
-    <Example01/>
-    <Example02/>
+    {/* <Example01/> */}
+    {/* <Example02/> */}
+    <Event/>
 
     {/* <div>
       <p>GOOD ~<br/>ㄱㄴㄷㄹㅁㅂㅅ</p>
