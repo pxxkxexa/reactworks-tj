@@ -1,0 +1,46 @@
+import { useState } from "react"
+import DrinkList from "./DrinkList";
+
+const AddDrink = () => {
+    // 음료를 저장할 상태변수와 함수
+    const [drinkName, setDrinkName] = useState([]);
+    // 입력 필드의 상태를 관리하기 위한 상태 변수
+    const[inputValue, setInputValue] = useState("");
+
+    const hadleInputValue = (e) => {
+        console.log(e.target.value);
+        setInputValue(e.target.value)
+    }
+
+    // 음료 추가 상태 함수
+    const handleAddDrink = (e) => {
+        const newDrink = inputValue.trim();
+        if(newDrink === ''){
+            alert("음료 이름을 입력해주세요.")
+            return;
+        }
+        setDrinkName([...drinkName, newDrink])
+        setInputValue(""); //입력 필드 초기화
+    }
+
+
+    return(
+        <>
+            <div>
+                <h2>음료추가</h2>
+                {/* value={inputValue} 음료추가 후 input 초기화 */}
+                <input
+                    type="text"
+                    placeholder="음료 이름 입력"
+                    value={inputValue}
+                    onChange={hadleInputValue}
+                />
+                <button type="button" onClick={handleAddDrink}>음료추가</button>
+                {/* DrinkList 컴포넌트에 drinks 속성으로 drinkName을 전달 */}
+                <DrinkList drinks={drinkName}/>
+            </div>
+        </>
+    )
+}
+
+export default AddDrink
