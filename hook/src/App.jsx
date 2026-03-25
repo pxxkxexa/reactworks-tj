@@ -9,7 +9,10 @@ import Box from './components/Box'
 import AddDrink from './components/AddDrink'
 import User from './components/User'
 import Clock from './components/Clock'
-import Profile from './card/profile'
+import Profile from './card/Profile'
+import MapTest from './components/MapTest'
+import SignUp from './form/SignUp'
+import SignIn from './form/SignIn'
 
 
 function App() {
@@ -36,7 +39,10 @@ function App() {
       {/* <AddDrink/> */}
       {/* <User/> */}
       {/* <Clock/> */}
-      <Profile/>
+      {/* <Profile/> */}
+      {/* <MapTest /> */}
+      {/* <SignUp/> */}
+      <SignIn/>
     </>
   )
 }

@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <h2>리엑트 연습 문제</h2>
+      <h2>리액트 연습 문제</h2>
       <p>{userName}님 환영합니다.</p>
 
       <UserList/>

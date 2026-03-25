@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <div>
-      <h2 className="headline">리엑트 시작하기</h2>
+      <h2 className="headline">리액트 시작하기</h2>
       {/* <h3 style={{color:'blue',fontWeight:'900'}}>JSX 문법</h3>
       <h3>현재 계절은 {season}입니다.</h3> */}
       {/* <img src={picture} alt="이미지" width="200px"/> */}

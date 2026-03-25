@@ -5,3 +5,7 @@ https://kiyongee2.github.io/my_site/
 1. git add .
 2. git commit -m "텍스트"
 3. git push origin main
+
+
+form - get, post 2가지 방식 (method, action)
+rest api - get, post, put, delete 4가지 방식 
