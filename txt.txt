@@ -9,3 +9,15 @@ https://kiyongee2.github.io/my_site/
 
 form - get, post 2가지 방식 (method, action)
 rest api - get, post, put, delete 4가지 방식 
+
+
+라우팅(페이지)
+npm install react-router-dom 설치하고
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Link, useParams} from 'react-router-dom'
+
+
+http://본인ID.github.io/test (내 레파지토리 서버주소)
+
+1.일반 웹페이지(html, css, js)
+2.리액트(프레임워크) - 설정, 설치
