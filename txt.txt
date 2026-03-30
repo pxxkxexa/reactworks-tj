@@ -21,3 +21,6 @@ http://본인ID.github.io/test (내 레파지토리 서버주소)
 
 1.일반 웹페이지(html, css, js)
 2.리액트(프레임워크) - 설정, 설치
+
+프로젝트 생성
+npm install create vite@latest .
