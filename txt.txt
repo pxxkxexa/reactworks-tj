@@ -5,6 +5,7 @@ https://kiyongee2.github.io/my_site/
 1. git add .
 2. git commit -m "텍스트"
 3. git push origin main
+4. npm run deploy // 해당 부분은 서버에 오릴때만 적용
 
 
 form - get, post 2가지 방식 (method, action)
@@ -19,8 +20,6 @@ import { Link, useParams} from 'react-router-dom'
 
 http://본인ID.github.io/test (내 레파지토리 서버주소)
 
-1.일반 웹페이지(html, css, js)
-2.리액트(프레임워크) - 설정, 설치
 
 프로젝트 생성
 npm install create vite@latest .

@@ -1,3 +1,38 @@
 .center{
   margin-top: 20px;
 }
+
+.container{
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 5px beige;
+}
+
+.container h2{
+  margin-bottom: 16px;
+}
+
+.todo-list{
+  padding: 0;
+  margin-top: 30px;
+}
+
+.todo-list li{
+  margin-bottom: 10px;
+}
+
+.todo-list li input[type="checkbox"]{
+  margin-right: 8px;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: rgb(212, 212, 212);
+}
+
+button{
+  margin-left: 4px;
+}
