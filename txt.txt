@@ -22,4 +22,8 @@ http://본인ID.github.io/test (내 레파지토리 서버주소)
 
 
 프로젝트 생성
-npm install create vite@latest .
+npm create vite@latest .
+
+
+[Hook]
+useRef - 저장
